@@ -1,4 +1,4 @@
-# Black Friday Sales Analysis – Retail Industry
+# Black Friday Sales Analysis for Walmart (Industry : Retail)
 This project explores Walmart’s Black Friday transaction data to analyze how customer spending patterns vary across different demographics — focusing on gender, age group, marital status, and city category.
 
 # Project Overview
@@ -26,15 +26,14 @@ Walmart seeks to analyze customer purchase behavior during Black Friday sales to
  - Purchase:	Purchase Amount
 
 # Milestones
- - Load and inspect dataset
+ - Load and inspect the dataset
  - Check data quality — identify missing values and outliers
- - Analyze group wise spending - sum, mean, median
+ - Analyze group-wise spending - sum, mean, median
  - Estimating Confidence Intervals - Finding the overlaps
- - Exploring the strength and direction of relationship among the attributes using Correlation in Heatmap
+ - Exploring the strength and direction of the relationship among the attributes using Correlation in Heatmap
  - Use CLT to draw assumptions on sample distributions
  - Findings and inferences
  - Recommendations
-(Please refer to Python code file)
 
 # Findings
   - As per CLT, the Smaple Ditribution follows Gaussian regardless of the population as the sample size for both the samples are much bigger than 30
@@ -61,3 +60,9 @@ Walmart seeks to analyze customer purchase behavior during Black Friday sales to
     - Age : At least one group has significantly different mean purchase
     - City_Category : Personalized sales promotion for City_Categories
  - Explore and target high-spending male subsegment as males have more and high value outliers
+
+# Colab Link 
+ - https://colab.research.google.com/drive/1NcKgZSNa0ysY_3XdhR-XhSX5930WcyIW
+
+# Data Link
+ - https://drive.google.com/file/d/1YTDX1lRpG-IjG4YAwl5L1SRkxJbuIaCh/view?usp=drive_link
